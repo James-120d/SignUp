@@ -7,16 +7,57 @@
     <link rel="stylesheet" href="SignUp.css">
 </head>
 <body>
-    <div>
-        <img src="https://as1.ftcdn.net/v2/jpg/04/39/02/46/1000_F_439024603_pHjWAZrHOojIFLykqoG5YBv65zcomlMS.jpg" alt="Background"class="Background_img" style="transform: rotate(180deg);">
-    <div class="container" id="Logo">
-        
+    <div class="image-container">
+        <div class="black-bar">
+            <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="IMG Error" id="OdinImg">
+            <h1>ODIN</h1>
+        </div>
+        <img src="https://as1.ftcdn.net/v2/jpg/04/39/02/46/1000_F_439024603_pHjWAZrHOojIFLykqoG5YBv65zcomlMS.jpg" alt="Background" class="Background_img" style="transform: rotate(180deg);">
     </div>
-    </div>
-    
-    <div>
-        <div class="Login">
-
+    <div class="LoginContainer">
+        <div id="LoginTop">
+            <p>This is not a real online service! You know you need something like this in your life to help you
+                realise your deepest dreams.
+                <span class="p-last-line">Sign up now to get started</span>
+            </p>
+            <br>
+            <p>
+                You know you want to.
+            </p>
+        </div>
+        <form action="" method="post" id="LoginCentre">
+            <h1>Let's do this!</h1>
+            <div class="grid-container" id="LoginGrid">
+                
+                <div class="grid-item">FIRST NAME
+                    <br>
+                    <input type="text" class="input1">
+                </div>
+                <div class="grid-item">LAST NAME
+                    <br>
+                    <input type="text" class="input1">
+                </div>
+                <div class="grid-item">EMAIL
+                    <br>
+                    <input type="text" class="input1">
+                </div>
+                <div class="grid-item">PHONE NUMBER
+                    <br>
+                    <input type="text" class="input1">
+                </div>
+                <div class="grid-item">PASSWORD
+                    <br>
+                    <input type="text" class="input2">
+                </div>
+                <div class="grid-item">CONFIRM PASSWORD
+                    <br>
+                    <input type="text" class="input2">
+                </div>
+            </div>
+        </form>
+        <div id="LoginBottom">
+            <button id="AccountButton">Create Account</button>
+            <p>Already have an account? <a href="https://www.theodinproject.com/users/sign_in">Log in</a></p>
         </div>
     </div>
 </body>
